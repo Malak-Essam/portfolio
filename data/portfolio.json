@@ -34,7 +34,20 @@
         "Secured user data and sessions by implementing Spring Security with JWT authentication, ensuring safe stateless authentication and protected API endpoints.",
         "Designed a modern, responsive user interface with Tailwind CSS 4, dark mode support, and smooth CSS animations for a premium user experience."
       ],
-      "images": [],
+      "images": [
+        "/chat-application/main.png",
+        "/chat-application/main2.png",
+        "/chat-application/login.png",
+        "/chat-application/register.png",
+        "/chat-application/chat.png",
+        "/chat-application/chat 1.png",
+        "/chat-application/chat 2.png",
+        "/chat-application/add friend 0.png",
+        "/chat-application/add friend1.png",
+        "/chat-application/add friend 2.png",
+        "/chat-application/add friend 3.png",
+        "/chat-application/user status.png"
+      ],
       "tags": [
         "Java",
         "Spring Boot",
@@ -60,7 +73,12 @@
         "Integrated the backend with a vanilla JavaScript frontend that handles login, registration, and dynamic list/task management through Fetch API.",
         "Deployed and tested both components locally and on Railway for production-ready use."
       ],
-      "images": [],
+      "images": [
+        "/todo-application/login.png",
+        "/todo-application/register.png",
+        "/todo-application/dashboard 1.png",
+        "/todo-application/dashboard 2.png"
+      ],
       "tags": [
         "Java",
         "Spring Boot",

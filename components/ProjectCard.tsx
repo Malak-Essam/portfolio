@@ -21,7 +21,7 @@ interface ProjectProps {
 }
 
 export default function ProjectCard({ project }: ProjectProps) {
-    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, startIndex: 0 });
 
     const scrollPrev = useCallback(() => {
         if (emblaApi) emblaApi.scrollPrev();
