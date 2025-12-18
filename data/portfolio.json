@@ -1,0 +1,81 @@
+{
+  "personalInfo": {
+    "name": "Malak Essam",
+    "title": "Software Engineer (Java Backend Focus)",
+    "bio": "I am a Software Engineer with a Bachelor's degree in Computer Science, majoring in AI. My current passion lies in backend development, specifically with Java. I love building scalable systems and solving complex problems.",
+    "email": "malak.essam3212@gmail.com",
+    "phone": "+201211276564",
+    "address": "Cairo, Egypt",
+    "linkedin": "https://www.linkedin.com/in/malak-essam",
+    "github": "https://github.com/Malak-Essam"
+  },
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Microservices",
+    "SQL (PostgreSQL, MySQL)",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Python",
+    "AI/ML Support",
+    "Git",
+    "CI/CD"
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Real-Time Chat Application with Friend Management System",
+      "summary": "A Full-Stack application that allows users to chat in real-time and manage their friends.",
+      "bullets": [
+        "Engineered a high-performance full-stack chat application utilizing Next.js 16 and Spring Boot, enabling seamless real-time communication for users.",
+        "Implemented a robust real-time messaging system using WebSocket (STOMP/SockJS), reducing message latency to under 100ms and supporting features like live typing indicators and online presence status.",
+        "Developed a comprehensive friend management system, allowing users to search, request, accept, and block connections with instant UI updates.",
+        "Secured user data and sessions by implementing Spring Security with JWT authentication, ensuring safe stateless authentication and protected API endpoints.",
+        "Designed a modern, responsive user interface with Tailwind CSS 4, dark mode support, and smooth CSS animations for a premium user experience."
+      ],
+      "images": [],
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "WebSocket",
+        "Docker",
+        "PostgreSQL",
+        "JWT",
+        "Kubernetes"
+      ],
+      "links": {
+        "github": "https://github.com/Malak-Essam/chat-backend",
+        "live": null
+      }
+    },
+    {
+      "id": "2",
+      "title": "Todo List Application",
+      "summary": "A Full-Stack application that allows users to add, update, and delete tasks.",
+      "bullets": [
+        "Built a RESTful Todo List API using Spring Boot with JWT authentication and Spring Security for user management and access control.",
+        "Implemented CRUD operations for users, Todolists, and tasks using Spring Data JPA and PostgreSQL.",
+        "Documented all endpoints with SpringDoc OpenAPI for easy API testing and integration.",
+        "Integrated the backend with a vanilla JavaScript frontend that handles login, registration, and dynamic list/task management through Fetch API.",
+        "Deployed and tested both components locally and on Railway for production-ready use."
+      ],
+      "images": [],
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "JWT",
+        "Spring Security",
+        "Spring Data JPA",
+        "PostgreSQL",
+        "OpenAI API",
+        "React",
+        "MySQL"
+      ],
+      "links": {
+        "github": "https://github.com/Malak-Essam/todo-backend",
+        "live": "https://ai-task-manager.demo.com"
+      }
+    }
+  ]
+}
