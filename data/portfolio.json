@@ -60,7 +60,9 @@
         "OpenAI API",
         "Lombok",
         "WebSocket",
-        "Docker"
+        "Docker",
+        "Next.js",
+        "React"
       ],
       "links": {
         "github": "https://github.com/Malak-Essam/chat-backend",
@@ -94,7 +96,6 @@
         "OpenAI API",
         "Lombok",
         "Docker",
-        "Next.js",
         "React"
       ],
       "links": {
