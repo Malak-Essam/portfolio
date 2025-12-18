@@ -96,7 +96,9 @@
         "OpenAI API",
         "Lombok",
         "Docker",
-        "React"
+        "JavaScript",
+        "HTML",
+        "CSS"
       ],
       "links": {
         "github": "https://github.com/Malak-Essam/todo-backend",
