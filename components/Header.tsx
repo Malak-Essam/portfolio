@@ -26,9 +26,8 @@ export default function Header() {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-background/80 backdrop-blur-md border-b border-white/10" : "bg-transparent"
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-background/80 backdrop-blur-md border-b border-white/10" : "bg-transparent"
+        }`}
     >
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold tracking-tighter hover:text-primary/80 transition-colors">
@@ -36,7 +35,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex gap-8">
+        <nav className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
             <Link
               key={item.name}
@@ -46,6 +45,14 @@ export default function Header() {
               {item.name}
             </Link>
           ))}
+          <a
+            href="/Malak%20Essam.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium rounded-lg transition-colors"
+          >
+            Resume
+          </a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -77,6 +84,15 @@ export default function Header() {
                 {item.name}
               </Link>
             ))}
+            <a
+              href="/Malak%20Essam.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)}
+              className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white text-lg font-medium rounded-lg transition-colors text-center"
+            >
+              Resume
+            </a>
           </nav>
         </motion.div>
       )}

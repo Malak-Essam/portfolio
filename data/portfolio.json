@@ -54,8 +54,7 @@
         "WebSocket",
         "Docker",
         "PostgreSQL",
-        "JWT",
-        "Kubernetes"
+        "JWT"
       ],
       "links": {
         "github": "https://github.com/Malak-Essam/chat-backend",
@@ -87,12 +86,11 @@
         "Spring Data JPA",
         "PostgreSQL",
         "OpenAI API",
-        "React",
-        "MySQL"
+        "React"
       ],
       "links": {
         "github": "https://github.com/Malak-Essam/todo-backend",
-        "live": "https://ai-task-manager.demo.com"
+        "live": "https://todo-frontend-orcin-phi.vercel.app"
       }
     }
   ]
