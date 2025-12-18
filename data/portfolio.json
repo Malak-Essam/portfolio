@@ -2,7 +2,7 @@
   "personalInfo": {
     "name": "Malak Essam",
     "title": "Software Engineer (Java Backend Focus)",
-    "bio": "I am a Software Engineer with a Bachelor's degree in Computer Science, majoring in AI. My current passion lies in backend development, specifically with Java. I love building scalable systems and solving complex problems.",
+    "bio": "Java Backend Engineer with a Computer Science (AI) background, specializing in Spring Boot and RESTful services. Focused on scalable backend design, clean architecture, and applying solid software engineering principles in real-world projects.",
     "email": "malak.essam3212@gmail.com",
     "phone": "+201211276564",
     "address": "Cairo, Egypt",
@@ -12,15 +12,18 @@
   "skills": [
     "Java",
     "Spring Boot",
+    "Spring JPA",
+    "Spring Security",
     "Microservices",
-    "SQL (PostgreSQL, MySQL)",
+    "SQL (PostgreSQL, Microsoft SQL Server)",
+    "JUnit",
     "Docker",
-    "Kubernetes",
-    "AWS",
-    "Python",
-    "AI/ML Support",
+    "JWT",
     "Git",
-    "CI/CD"
+    "CI/CD",
+    "Linux",
+    "Python",
+    "AI/ML Support"
   ],
   "projects": [
     {
@@ -31,8 +34,7 @@
         "Engineered a high-performance full-stack chat application utilizing Next.js 16 and Spring Boot, enabling seamless real-time communication for users.",
         "Implemented a robust real-time messaging system using WebSocket (STOMP/SockJS), reducing message latency to under 100ms and supporting features like live typing indicators and online presence status.",
         "Developed a comprehensive friend management system, allowing users to search, request, accept, and block connections with instant UI updates.",
-        "Secured user data and sessions by implementing Spring Security with JWT authentication, ensuring safe stateless authentication and protected API endpoints.",
-        "Designed a modern, responsive user interface with Tailwind CSS 4, dark mode support, and smooth CSS animations for a premium user experience."
+        "Secured user data and sessions by implementing Spring Security with JWT authentication, ensuring safe stateless authentication and protected API endpoints."
       ],
       "images": [
         "/chat-application/main.png",
@@ -51,10 +53,14 @@
       "tags": [
         "Java",
         "Spring Boot",
-        "WebSocket",
-        "Docker",
+        "Spring Data JPA",
+        "Spring Security",
+        "JWT",
         "PostgreSQL",
-        "JWT"
+        "OpenAI API",
+        "Lombok",
+        "WebSocket",
+        "Docker"
       ],
       "links": {
         "github": "https://github.com/Malak-Essam/chat-backend",
@@ -81,11 +87,14 @@
       "tags": [
         "Java",
         "Spring Boot",
-        "JWT",
-        "Spring Security",
         "Spring Data JPA",
+        "Spring Security",
+        "JWT",
         "PostgreSQL",
         "OpenAI API",
+        "Lombok",
+        "Docker",
+        "Next.js",
         "React"
       ],
       "links": {
