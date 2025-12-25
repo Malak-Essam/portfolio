@@ -6,7 +6,7 @@ export default function Hero() {
     const { name, title, bio, github, linkedin, email } = portfolioData.personalInfo;
 
     return (
-        <section className="min-h-[90vh] flex items-center justify-center relative overflow-hidden">
+        <section id="about" className="min-h-[90vh] flex items-center justify-center relative overflow-hidden">
             {/* Background Gradients */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
                 <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-[100px]" />

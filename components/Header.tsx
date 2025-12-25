@@ -15,10 +15,27 @@ const navItems = [
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
+
+      // Active section logic
+      const sections = navItems.map(item => item.href.substring(1));
+      let currentSection = "";
+
+      for (const section of sections) {
+        const element = document.getElementById(section);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          if (rect.top <= 100 && rect.bottom >= 100) {
+            currentSection = section;
+          }
+        }
+      }
+
+      setActiveSection(`#${currentSection}`);
     };
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
@@ -40,7 +57,8 @@ export default function Header() {
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm font-medium hover:text-blue-400 transition-colors"
+              className={`text-sm font-medium transition-colors ${activeSection === item.href ? "text-blue-500" : "hover:text-blue-400"
+                }`}
             >
               {item.name}
             </Link>
@@ -79,7 +97,8 @@ export default function Header() {
                 key={item.name}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="text-lg font-medium hover:text-blue-400 transition-colors"
+                className={`text-lg font-medium transition-colors ${activeSection === item.href ? "text-blue-500" : "hover:text-blue-400"
+                  }`}
               >
                 {item.name}
               </Link>
